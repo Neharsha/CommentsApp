@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.comments-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.name-input {
+  margin-bottom: 15px;
+}
+.comment-input {
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #0284c7;
+  color: #ffffff;
+
+  border: 0px;
+  padding: 10px;
+}
+.heading {
+  margin-left: 50vh;
+}
+.comment-img {
+  height: 40vh;
+  width: 40vh;
+  padding: 12px;
+}
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50vh;
+}
+.head {
+  color: #334155;
+  margin-left: 57vh;
+}
+.comments-count {
+  background-color: #0284c7;
+  border: none;
+  width: 20vh;
+  height: 10vh;
+  border-radius: 5px;
+  padding: 5px;
+}
